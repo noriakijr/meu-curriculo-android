@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Noriaki Odan Junior</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_exp_profissional">Experiência Profissional</string>
+    <string name="title_activity_especializacoes">Especializações</string>
+    <string name="title_activity_contatos">Contatos</string>
+    <string name="title_activity_redes_sociais">Redes Sociais</string>
+    <string name="title_activity_form_academica">Formação Academica</string>
+
+</resources>

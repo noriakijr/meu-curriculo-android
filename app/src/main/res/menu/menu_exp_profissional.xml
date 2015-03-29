@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.noriaki.noriakiodanjunior.ExpProfissionalActivity">
+    <item
+        android:id="@+id/action_gmail"
+        android:icon="@drawable/ic_gmail"
+        android:title="Email"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_sobre"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        app:showAsAction="never" />
+</menu>

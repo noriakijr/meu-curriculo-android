@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+
+        <ImageView
+            android:id="@+id/ivFoto"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/stat_sys_phone_call" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Noriaki Odan Junior" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suzano, SP" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graduação em Análise e Desenvolvimento de Sistemas - Cursando 6º Semestre" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btExpProfissional"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Experiência Profissional"
+            android:background="#266EAA"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/btEspecializacoes"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Especializações"
+            android:background="#266EAA"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/btFormacaoAcademica"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Formação Acadêmica"
+            android:background="#266EAA"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp" />
+
+        <Button
+            android:id="@+id/btRedesSociais"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Redes Sociais"
+            android:background="#266EAA"
+            android:textColor="#fff"
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivGmail"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_gmail"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noriaki.noriakiodanjunior" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Grey" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ExpProfissionalActivity"
+            android:label="@string/title_activity_exp_profissional"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.noriaki.noriakiodanjunior.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".EspecializacoesActivity"
+            android:label="@string/title_activity_especializacoes"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.noriaki.noriakiodanjunior.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ContatoActivity"
+            android:label="@string/title_activity_contatos"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.noriaki.noriakiodanjunior.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".RedesSociaisActivity"
+            android:label="@string/title_activity_redes_sociais"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.noriaki.noriakiodanjunior.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".FormAcademicaActivity"
+            android:label="@string/title_activity_form_academica"
+            android:parentActivityName=".HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.noriaki.noriakiodanjunior.HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>
